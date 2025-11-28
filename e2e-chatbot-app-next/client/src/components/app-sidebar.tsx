@@ -38,8 +38,13 @@ export function AppSidebar({
               }}
               className="flex flex-row items-center gap-3"
             >
-              <span className="cursor-pointer rounded-md px-2 font-semibold text-lg hover:bg-muted">
-                Chatbot
+              <img
+                src="/images/fort_logo.png"
+                alt="Fortescue Logo"
+                className="h-8 w-auto"
+              />
+              <span className="cursor-pointer rounded-md px-2 font-semibold text-base hover:bg-muted">
+                Fortescue Emissions Assistant
               </span>
             </Link>
             <Tooltip>

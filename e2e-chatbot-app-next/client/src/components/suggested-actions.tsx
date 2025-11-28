@@ -17,7 +17,7 @@ function PureSuggestedActions({ chatId, sendMessage }: SuggestedActionsProps) {
   const { chatHistoryEnabled } = useAppConfig();
   const suggestedActions = [
     'How can you help me?',
-    'Tell me something I might not know',
+    'what are my scope 1 emissions policy limits and what assets have violated them?',
   ];
 
   return (
